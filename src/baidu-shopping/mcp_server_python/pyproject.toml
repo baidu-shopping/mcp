@@ -1,0 +1,18 @@
+[project]
+name = "mcp-server-baidu-shopping"
+version = "0.1.1"
+description = "MCP Server Baidu Shopping"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "baidu-shopping" }]
+maintainers = [{ name = "test", email = "liusuzhi06@gmail.com" }]
+keywords = ["http", "mcp", "map", "baidu"]
+license = { text = "MIT" }
+dependencies = [
+    "asyncio>=3.4.3",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.5.0",
+]
+
+[project.scripts]
+mcp-server-baidu-shopping = "mcp_server_python:main"
