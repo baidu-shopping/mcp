@@ -17,7 +17,7 @@ mcp = FastMCP("mcp-server-baidu-shopping")
 '''
 
 api_key = os.getenv('BAIDU_SHOPPING_API_KEY')
-api_url = "http://mcp.youxuan.baidu.com"
+api_url = "https://mcp-youxuan.baidu.com"
  
 @mcp.tool()
 async def brand_rank(
