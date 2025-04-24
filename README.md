@@ -80,7 +80,7 @@
 //  服务配置
   "mcpServers": {
     "youxuan-mcp": {
-      "url": "https://mcp.youxuan.baidu.com/mcp/sse?key={token}"
+      "url": "https://mcp-youxuan.baidu.com/mcp/sse?key={token}"
     }
   }
 }
